@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import stat from "@public/contact-min.jpg";
+import stats from "@public/stats.png";
 
 const Section4 = () => {
   return (
@@ -25,7 +26,7 @@ const Section4 = () => {
           </div>
           <div class="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
             <h2 class="title-font font-medium md:text-3xl text-2xl text-gray-900">
-              1.98%
+              98%
             </h2>
             <p class="leading-relaxed">Client Satisfaction</p>
           </div>
@@ -45,7 +46,7 @@ const Section4 = () => {
         <div class="lg:w-1/2 sm:w-1/3 w-full rounded-lg overflow-hidden mt-6 sm:mt-0">
           <Image
             class="object-cover object-center w-full h-full"
-            src={stat}
+            src={stats}
             alt="stats"
           />
         </div>

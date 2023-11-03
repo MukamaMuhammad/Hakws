@@ -1,8 +1,9 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import mypic from "../public/foreign.jpg";
+import bg1 from "../public/bg1.jpg";
 import Typewriter from "typewriter-effect";
+import banner from "@public/banner.jpg";
 
 const Hero = () => {
   return (
@@ -21,7 +22,7 @@ const Hero = () => {
             innovation, quality, and customer satisfaction.
           </p>
           <div className="flex justify-center">
-            <button className="inline-flex text-white bg-primary border-0 py-2 px-6 focus:outline-none rounded text-lg">
+            <button className="inline-flex text-white bg-primary hover:bg-primary2 border-0 py-2 px-6 focus:outline-none rounded text-lg">
               Read More
             </button>
             <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">
@@ -33,7 +34,7 @@ const Hero = () => {
           <Image
             className="object-cover object-center rounded"
             alt="hero"
-            src={mypic}
+            src={bg1}
             style={{
               objectFit: "cover",
               objectPosition: "center",

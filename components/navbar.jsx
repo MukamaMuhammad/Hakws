@@ -1,5 +1,7 @@
 "use client";
 import React from "react";
+import Image from "next/image";
+import logo from "@public/logo2.jpg";
 import { CiMenuFries } from "react-icons/ci";
 import { VscClose } from "react-icons/vsc";
 import { useState } from "react";
@@ -8,7 +10,7 @@ const links = [
   { id: 1, name: "Home", url: "/" },
   { id: 2, name: "About", url: "/about" },
   { id: 3, name: "Services", url: "/services" },
-  { id: 4, name: "Portfolio", url: "/" },
+  { id: 4, name: "Portfolio", url: "/portfolio" },
   { id: 5, name: "Contact", url: "/contact" },
 ];
 
@@ -17,9 +19,13 @@ const Navbar = () => {
 
   return (
     <nav className="md:px-10 px-3 absolute top-0 left-0 right-0 z-[10] shadow-sm">
-      <div className="container mx-auto flex md:flex-row justify-between items-center h-20">
-        <div className="">
-          <div className="text-3xl">HAKW</div>
+      <div className="container mx-auto flex md:flex-row justify-between items-center h-24">
+        <div className="flex justify-center items-center">
+          <Image
+            className="h-[80px] max-md:h-[60px] rounded w-full object-cover object-center"
+            src={logo}
+            alt="logo"
+          />
         </div>
         <button
           onClick={() => {

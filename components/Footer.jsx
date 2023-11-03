@@ -1,4 +1,10 @@
 import React from "react";
+import Image from "next/image";
+import logo from "@public/logo1.jpg";
+import { GoLocation } from "react-icons/go";
+import { BsTelephone } from "react-icons/bs";
+import { AiOutlineMail } from "react-icons/ai";
+import { AiOutlineWhatsApp } from "react-icons/ai";
 
 const Footer = () => {
   return (
@@ -7,105 +13,104 @@ const Footer = () => {
         <div className="container mx-auto px-5 py-14 flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
           <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
             <a className="flex title-font font-medium items-center md:justify-start justify-center text-white">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                className="w-10 h-10 text-white p-2 bg-primary rounded-full"
-                viewBox="0 0 24 24"
-              >
-                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-              </svg>
-              <span className="ml-3 text-2xl">Hakw</span>
+              <Image
+                className="w-12 h-12 rounded-full object-cover object-center"
+                src={logo}
+                alt="logo"
+              />
+              <span className="ml-3 text-xl">
+                Hakw Proprties & Construction Ltd
+              </span>
             </a>
-            <p className="mt-2 text-white">
+            <p className="mt-2 text-sm text-slate-200">
               Your trusted partner for exceptional solutions in the real estate
               and construction industry
             </p>
           </div>
           <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
-            <div className="lg:w-1/3 md:w-1/2 w-full px-4">
+            {/* <div className="lg:w-2/4 md:w-1/2 w-[100%] md:px-4">
               <h2 className="title-font font-medium text-white tracking-widest text-xl mb-3">
-                CATEGORIES
+                CONTACTS
               </h2>
               <nav className="list-none mb-10">
-                <li>
-                  <a className="text-white hover:text-gray-600 cursor-pointer">
-                    First Link
+                <div className="flex items-center  max-md:text-center gap-2">
+                  <GoLocation className="" />
+                  <a className="hover:text-gray-600 cursor-pointer text-slate-200">
+                    Bugolobi Industrial Area, 5th Street
                   </a>
-                </li>
-                <li>
-                  <a className="text-white hover:text-gray-600 cursor-pointer">
-                    Second Link
+                </div>
+                <div className="flex items-center max-md:text-center gap-2">
+                  <BsTelephone />
+                  <a className="hover:text-gray-600 cursor-pointer text-slate-200">
+                    +256-706737090, +256-703741020
                   </a>
-                </li>
-                <li>
-                  <a className="text-white hover:text-gray-600 cursor-pointer">
-                    Third Link
+                </div>
+                <div className="flex items-center max-md:text-center gap-2">
+                  <AiOutlineMail />
+                  <a className="hover:text-gray-600 cursor-pointer text-slate-200">
+                    hawkproperties.constructionugltd@gmail.com
                   </a>
-                </li>
-                <li>
-                  <a className="text-white hover:text-gray-600 cursor-pointer">
-                    Fourth Link
+                </div>
+                <div className="flex items-center max-md:text-center gap-2">
+                  <AiOutlineWhatsApp />
+                  <a className="hover:text-gray-600 cursor-pointer text-slate-200">
+                    +256-706737090
                   </a>
-                </li>
+                </div>
               </nav>
-            </div>
-            <div className="lg:w-1/3 md:w-1/2 w-full px-4">
+            </div> */}
+            <div className="lg:w-1/2 md:w-1/2 w-full px-4">
               <h2 className="title-font font-medium text-white tracking-widest text-xl mb-3">
                 SOCIALS
               </h2>
               <nav className="list-none mb-10">
-                <li>
-                  <a className="text-white hover:text-gray-600 cursor-pointer">
+                <div>
+                  <a className="hover:text-gray-600 cursor-pointer text-slate-200">
                     Facebook
                   </a>
-                </li>
-                <li>
-                  <a className="text-white hover:text-gray-600 cursor-pointer">
+                </div>
+                <div>
+                  <a className="hover:text-gray-600 cursor-pointer text-slate-200">
                     WhatsApp
                   </a>
-                </li>
-                <li>
-                  <a className="text-white hover:text-gray-600 cursor-pointer">
+                </div>
+                <div>
+                  <a className="hover:text-gray-600 cursor-pointer text-slate-200">
                     Instagram
                   </a>
-                </li>
-                <li>
-                  <a className="text-white hover:text-gray-600 cursor-pointer">
+                </div>
+                <div>
+                  <a className="hover:text-gray-600 cursor-pointer text-slate-200">
                     Twitter (X)
                   </a>
-                </li>
+                </div>
               </nav>
             </div>
-            <div className="lg:w-1/3 md:w-1/2 w-full px-4">
+            <div className="lg:w-1/2 md:w-1/2 w-full px-4">
               <h2 className="title-font font-medium text-white tracking-widest text-xl mb-3">
                 QUICK LINKS
               </h2>
               <nav className="list-none mb-10">
-                <li>
-                  <a className="text-white hover:text-gray-600 cursor-pointer">
+                <div>
+                  <a className="hover:text-gray-600 cursor-pointer text-slate-200">
                     Home
                   </a>
-                </li>
-                <li>
-                  <a className="text-white hover:text-gray-600 cursor-pointer">
+                </div>
+                <div>
+                  <a className="hover:text-gray-600 cursor-pointer text-slate-200">
                     About
                   </a>
-                </li>
-                <li>
-                  <a className="text-white hover:text-gray-600 cursor-pointer">
+                </div>
+                <div>
+                  <a className="hover:text-gray-600 cursor-pointer text-slate-200">
                     Services
                   </a>
-                </li>
-                <li>
-                  <a className="text-white hover:text-gray-600 cursor-pointer">
+                </div>
+                <div>
+                  <a className="hover:text-gray-600 cursor-pointer text-slate-200">
                     Contact
                   </a>
-                </li>
+                </div>
               </nav>
             </div>
           </div>
@@ -115,14 +120,14 @@ const Footer = () => {
       <div className="bg-gray-100 w-[100%]">
         <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
           <p className="text-gray-500 text-sm text-center sm:text-left">
-            © 2023 Hawks —
+            © 2023 Hawk —
             <a
               href="https://twitter.com/knyttneve"
               rel="noopener noreferrer"
               className="text-gray-600 ml-1"
               target="_blank"
             >
-              @hakws@gmail.com
+              A1 Creatives
             </a>
           </p>
           <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
