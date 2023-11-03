@@ -2,114 +2,117 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="text-white body-font">
-      <div className="container px-5 py-14 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col bg-primary">
-        <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
-          <a className="flex title-font font-medium items-center md:justify-start justify-center text-white">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              className="w-10 h-10 text-white p-2 bg-primary rounded-full"
-              viewBox="0 0 24 24"
-            >
-              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-            </svg>
-            <span className="ml-3 text-2xl">Hakw</span>
-          </a>
-          <p className="mt-2 text-white">
-            Your trusted partner for exceptional solutions in the real estate
-            and construction industry
-          </p>
-        </div>
-        <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
-          <div className="lg:w-1/3 md:w-1/2 w-full px-4">
-            <h2 className="title-font font-medium text-white tracking-widest text-xl mb-3">
-              CATEGORIES
-            </h2>
-            <nav className="list-none mb-10">
-              <li>
-                <a className="text-white hover:text-gray-600 cursor-pointer">
-                  First Link
-                </a>
-              </li>
-              <li>
-                <a className="text-white hover:text-gray-600 cursor-pointer">
-                  Second Link
-                </a>
-              </li>
-              <li>
-                <a className="text-white hover:text-gray-600 cursor-pointer">
-                  Third Link
-                </a>
-              </li>
-              <li>
-                <a className="text-white hover:text-gray-600 cursor-pointer">
-                  Fourth Link
-                </a>
-              </li>
-            </nav>
+    <footer className="text-white">
+      <div className="bg-primary w-[100%]">
+        <div className="container mx-auto px-5 py-14 flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+          <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
+            <a className="flex title-font font-medium items-center md:justify-start justify-center text-white">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                className="w-10 h-10 text-white p-2 bg-primary rounded-full"
+                viewBox="0 0 24 24"
+              >
+                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+              </svg>
+              <span className="ml-3 text-2xl">Hakw</span>
+            </a>
+            <p className="mt-2 text-white">
+              Your trusted partner for exceptional solutions in the real estate
+              and construction industry
+            </p>
           </div>
-          <div className="lg:w-1/3 md:w-1/2 w-full px-4">
-            <h2 className="title-font font-medium text-white tracking-widest text-xl mb-3">
-              SOCIALS
-            </h2>
-            <nav className="list-none mb-10">
-              <li>
-                <a className="text-white hover:text-gray-600 cursor-pointer">
-                  Facebook
-                </a>
-              </li>
-              <li>
-                <a className="text-white hover:text-gray-600 cursor-pointer">
-                  WhatsApp
-                </a>
-              </li>
-              <li>
-                <a className="text-white hover:text-gray-600 cursor-pointer">
-                  Instagram
-                </a>
-              </li>
-              <li>
-                <a className="text-white hover:text-gray-600 cursor-pointer">
-                  Twitter (X)
-                </a>
-              </li>
-            </nav>
-          </div>
-          <div className="lg:w-1/3 md:w-1/2 w-full px-4">
-            <h2 className="title-font font-medium text-white tracking-widest text-xl mb-3">
-              QUICK LINKS
-            </h2>
-            <nav className="list-none mb-10">
-              <li>
-                <a className="text-white hover:text-gray-600 cursor-pointer">
-                  Home
-                </a>
-              </li>
-              <li>
-                <a className="text-white hover:text-gray-600 cursor-pointer">
-                  About
-                </a>
-              </li>
-              <li>
-                <a className="text-white hover:text-gray-600 cursor-pointer">
-                  Services
-                </a>
-              </li>
-              <li>
-                <a className="text-white hover:text-gray-600 cursor-pointer">
-                  Contact
-                </a>
-              </li>
-            </nav>
+          <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
+            <div className="lg:w-1/3 md:w-1/2 w-full px-4">
+              <h2 className="title-font font-medium text-white tracking-widest text-xl mb-3">
+                CATEGORIES
+              </h2>
+              <nav className="list-none mb-10">
+                <li>
+                  <a className="text-white hover:text-gray-600 cursor-pointer">
+                    First Link
+                  </a>
+                </li>
+                <li>
+                  <a className="text-white hover:text-gray-600 cursor-pointer">
+                    Second Link
+                  </a>
+                </li>
+                <li>
+                  <a className="text-white hover:text-gray-600 cursor-pointer">
+                    Third Link
+                  </a>
+                </li>
+                <li>
+                  <a className="text-white hover:text-gray-600 cursor-pointer">
+                    Fourth Link
+                  </a>
+                </li>
+              </nav>
+            </div>
+            <div className="lg:w-1/3 md:w-1/2 w-full px-4">
+              <h2 className="title-font font-medium text-white tracking-widest text-xl mb-3">
+                SOCIALS
+              </h2>
+              <nav className="list-none mb-10">
+                <li>
+                  <a className="text-white hover:text-gray-600 cursor-pointer">
+                    Facebook
+                  </a>
+                </li>
+                <li>
+                  <a className="text-white hover:text-gray-600 cursor-pointer">
+                    WhatsApp
+                  </a>
+                </li>
+                <li>
+                  <a className="text-white hover:text-gray-600 cursor-pointer">
+                    Instagram
+                  </a>
+                </li>
+                <li>
+                  <a className="text-white hover:text-gray-600 cursor-pointer">
+                    Twitter (X)
+                  </a>
+                </li>
+              </nav>
+            </div>
+            <div className="lg:w-1/3 md:w-1/2 w-full px-4">
+              <h2 className="title-font font-medium text-white tracking-widest text-xl mb-3">
+                QUICK LINKS
+              </h2>
+              <nav className="list-none mb-10">
+                <li>
+                  <a className="text-white hover:text-gray-600 cursor-pointer">
+                    Home
+                  </a>
+                </li>
+                <li>
+                  <a className="text-white hover:text-gray-600 cursor-pointer">
+                    About
+                  </a>
+                </li>
+                <li>
+                  <a className="text-white hover:text-gray-600 cursor-pointer">
+                    Services
+                  </a>
+                </li>
+                <li>
+                  <a className="text-white hover:text-gray-600 cursor-pointer">
+                    Contact
+                  </a>
+                </li>
+              </nav>
+            </div>
           </div>
         </div>
       </div>
-      <div className="bg-gray-100">
+
+      <div className="bg-gray-100 w-[100%]">
         <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
           <p className="text-gray-500 text-sm text-center sm:text-left">
             © 2023 Hawks —

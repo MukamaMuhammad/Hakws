@@ -6,7 +6,7 @@ import Section5 from "@components/Section5";
 
 export default function Home() {
   return (
-    <div className="container mx-auto">
+    <div>
       <Hero />
       <Section2 />
       <Section3 />

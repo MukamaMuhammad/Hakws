@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
       <head>
         <script src="https://api.mqcdn.com/sdk/mapquest-js/v1.3.2/mapquest.js"></script>
       </head>
-      <body className="container mx-auto bg-white text-gray-800">
+      <body className="bg-white text-gray-800">
         <Navbar />
         {children}
         <Footer />
