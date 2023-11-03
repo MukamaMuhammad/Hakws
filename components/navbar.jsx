@@ -34,7 +34,7 @@ const Navbar = () => {
         </button>
 
         <div className="gap-7 hidden md:flex">
-          {links.map((link, index) => (
+          {links.map((link) => (
             <a
               key={link.id}
               href={link.url}
@@ -51,11 +51,11 @@ const Navbar = () => {
         <div className="container mx-auto pt-10 bg-white gap-7 md:hidden flex flex-col">
           {links.map((link, index) => (
             <a
-              key={index}
-              href="#"
+              key={link.id}
+              href={link.url}
               className="text-gray-800 hover:text-primary transition border-b-[1px] border-slate-700 pb-3"
             >
-              {link}
+              {link.name}
             </a>
           ))}
         </div>
