@@ -3,14 +3,14 @@ import Image from "next/image";
 import service1 from "@public/service1.jpg";
 import service2 from "@public/service2.jpg";
 import service3 from "@public/service3.jpg";
-import service4 from "@public/service4.png";
+import service4 from "@public/portfolio3.png";
 import service5 from "@public/service5.jpg";
 import service6 from "@public/service6.png";
 
 const Section3 = () => {
   return (
-    <section className="text-gray-600 body-font">
-      <div className="container px-5 py-24 mx-auto">
+    <section id="section3" className="text-gray-600 body-font">
+      <div className="container px-5 py-20 mx-auto">
         <div className="flex flex-wrap w-full mb-20">
           <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
             <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">

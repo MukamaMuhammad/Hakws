@@ -2,11 +2,12 @@ import React from "react";
 import Image from "next/image";
 import stat from "@public/contact-min.jpg";
 import stats from "@public/stats.png";
+import Link from "next/link";
 
 const Section4 = () => {
   return (
     <section class="text-gray-600 body-font">
-      <div class="container px-5 py-24 mx-auto flex flex-wrap">
+      <div class="container px-5 py-20 mx-auto flex flex-wrap">
         <div class="flex flex-wrap -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-start sm:pr-10">
           <div class="w-full sm:p-4 px-4 mb-6">
             <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">
@@ -56,9 +57,11 @@ const Section4 = () => {
         <h3 className="mt-0 pt-14 font-medium text-xl md:text-3xl text-white">
           An innovative Company working with the latest technologies
         </h3>
-        <button className="bg-transparent p-2 md:py-4 md:px-7 px-5 border-2 border-white text-white text-lg md:text-base mt-5 hover:bg-white hover:text-primary transition duration-500">
-          Contact Us
-        </button>
+        <Link href={"/contact"}>
+          <button className="bg-transparent p-2 md:py-4 md:px-7 px-5 border-2 border-white text-white text-lg md:text-base mt-5 hover:bg-white hover:text-primary transition duration-500">
+            Contact Us
+          </button>
+        </Link>
       </section>
     </section>
   );

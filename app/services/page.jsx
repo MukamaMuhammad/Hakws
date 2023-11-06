@@ -3,9 +3,16 @@ import Image from "next/image";
 import service1 from "@public/service1.jpg";
 import service2 from "@public/service2.jpg";
 import service3 from "@public/service3.jpg";
-import service4 from "@public/service4.png";
+import service4 from "@public/portfolio3.png";
 import service5 from "@public/service5.jpg";
 import service6 from "@public/service6.png";
+
+export const metadata = {
+  title:
+    "Our Services at Hakw Properties And Construction Uganda Ltd | Construction and Property Services in Uganda",
+  description:
+    "Hakw Properties And Construction Uganda Ltd offers a wide range of construction and property services in Uganda and Kampala. Our services include construction services, electrical services, plumbing services, interior design services, ac installation and other services related to construction and properties.",
+};
 
 const page = () => {
   return (

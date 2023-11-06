@@ -2,7 +2,7 @@ import React from "react";
 
 const Section2 = () => {
   return (
-    <section class="text-gray-600 body-font">
+    <section id="section2" class="text-gray-600 body-font">
       <div class="container px-5 py-10 mx-auto">
         <div class="text-center mb-20">
           <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4">
@@ -11,8 +11,8 @@ const Section2 = () => {
           <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-500s">
             We don't just build structures; we craft legacies. Our unwavering
             commitment to excellence and our relentless pursuit of innovation
-            distinguish us as a premier property and construction company.
-            Here's what truly sets us apart from the rest:
+            distinguish us as a premier property and construction company in
+            Uganda. Here's what truly sets us apart from the rest:
           </p>
           <div class="flex mt-6 justify-center">
             <div class="w-16 h-1 rounded-full bg-primary inline-flex"></div>
@@ -139,9 +139,11 @@ const Section2 = () => {
             </div>
           </div>
         </div>
-        <button class="flex mx-auto mt-16 text-white bg-primary border-0 py-2 px-8 focus:outline-none rounded text-lg">
-          Our Work
-        </button>
+        <a href="#section3">
+          <button class="flex mx-auto mt-16 text-white bg-primary transition hover:bg-primary2 border-0 py-2 px-8 focus:outline-none rounded text-lg">
+            Our Work
+          </button>
+        </a>
       </div>
     </section>
   );

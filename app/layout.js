@@ -6,8 +6,10 @@ import Footer from "@components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Lolenti Muhammad Portfolio Website",
-  description: "This is Lolenti Muhammad's Portfolio Website",
+  title:
+    "Construction and Property Services in Uganda | Hakw Properties And Construction Uganda Ltd",
+  description:
+    "Hakw Properties And Construction Uganda Ltd offers construction services, electrical services, plumbing services, interior design services, ac installation and other services related to construction and properties in Uganda and Kampala and all other cities of Uganda.",
 };
 
 export default function RootLayout({ children }) {

@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import logo from "@public/logo1.jpg";
 import { GoLocation } from "react-icons/go";
 import { BsTelephone } from "react-icons/bs";
@@ -19,7 +20,7 @@ const Footer = () => {
                 alt="logo"
               />
               <span className="ml-3 text-xl">
-                Hakw Proprties & Construction Ltd
+                Hakw Properties & Construction Ltd
               </span>
             </a>
             <p className="mt-2 text-sm text-slate-200">
@@ -28,38 +29,38 @@ const Footer = () => {
             </p>
           </div>
           <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
-            {/* <div className="lg:w-2/4 md:w-1/2 w-[100%] md:px-4">
+            <div className="lg:w-2/4 md:w-1/2 w-[100%] md:px-4">
               <h2 className="title-font font-medium text-white tracking-widest text-xl mb-3">
-                CONTACTS
+                CONTACT INFO
               </h2>
               <nav className="list-none mb-10">
-                <div className="flex items-center  max-md:text-center gap-2">
+                <div className="flex items-center max-md:justify-center gap-2">
                   <GoLocation className="" />
                   <a className="hover:text-gray-600 cursor-pointer text-slate-200">
                     Bugolobi Industrial Area, 5th Street
                   </a>
                 </div>
-                <div className="flex items-center max-md:text-center gap-2">
+                <div className="flex items-center max-md:justify-center gap-2">
                   <BsTelephone />
                   <a className="hover:text-gray-600 cursor-pointer text-slate-200">
                     +256-706737090, +256-703741020
                   </a>
                 </div>
-                <div className="flex items-center max-md:text-center gap-2">
+                <div className="flex items-center max-md:justify-center gap-2 max-md:hidden">
                   <AiOutlineMail />
                   <a className="hover:text-gray-600 cursor-pointer text-slate-200">
-                    hawkproperties.constructionugltd@gmail.com
+                    hakwproperties.constructionugltd@gmail.com
                   </a>
                 </div>
-                <div className="flex items-center max-md:text-center gap-2">
+                <div className="flex items-center max-md:justify-center gap-2">
                   <AiOutlineWhatsApp />
                   <a className="hover:text-gray-600 cursor-pointer text-slate-200">
                     +256-706737090
                   </a>
                 </div>
               </nav>
-            </div> */}
-            <div className="lg:w-1/2 md:w-1/2 w-full px-4">
+            </div>
+            <div className="lg:w-1/4 md:w-1/2 w-full px-4">
               <h2 className="title-font font-medium text-white tracking-widest text-xl mb-3">
                 SOCIALS
               </h2>
@@ -86,30 +87,42 @@ const Footer = () => {
                 </div>
               </nav>
             </div>
-            <div className="lg:w-1/2 md:w-1/2 w-full px-4">
+            <div className="lg:w-1/4 md:w-1/2 w-full px-4">
               <h2 className="title-font font-medium text-white tracking-widest text-xl mb-3">
                 QUICK LINKS
               </h2>
               <nav className="list-none mb-10">
                 <div>
-                  <a className="hover:text-gray-600 cursor-pointer text-slate-200">
+                  <Link
+                    href={"/"}
+                    className="hover:text-gray-600 cursor-pointer text-slate-200"
+                  >
                     Home
-                  </a>
+                  </Link>
                 </div>
                 <div>
-                  <a className="hover:text-gray-600 cursor-pointer text-slate-200">
+                  <Link
+                    href={"/about"}
+                    className="hover:text-gray-600 cursor-pointer text-slate-200"
+                  >
                     About
-                  </a>
+                  </Link>
                 </div>
                 <div>
-                  <a className="hover:text-gray-600 cursor-pointer text-slate-200">
+                  <Link
+                    href={"/services"}
+                    className="hover:text-gray-600 cursor-pointer text-slate-200"
+                  >
                     Services
-                  </a>
+                  </Link>
                 </div>
                 <div>
-                  <a className="hover:text-gray-600 cursor-pointer text-slate-200">
+                  <Link
+                    href={"/contact"}
+                    className="hover:text-gray-600 cursor-pointer text-slate-200"
+                  >
                     Contact
-                  </a>
+                  </Link>
                 </div>
               </nav>
             </div>
