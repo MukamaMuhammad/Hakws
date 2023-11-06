@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import logo from "@public/logo1.jpg";
+import logo from "@public/logo1.JPG";
 import { GoLocation } from "react-icons/go";
 import { BsTelephone } from "react-icons/bs";
 import { AiOutlineMail } from "react-icons/ai";

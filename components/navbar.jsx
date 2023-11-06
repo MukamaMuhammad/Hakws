@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import logo from "@public/logo2.jpg";
+import logo from "@public/logo2.JPG";
 import Link from "next/link";
 import { CiMenuFries } from "react-icons/ci";
 import { VscClose } from "react-icons/vsc";
