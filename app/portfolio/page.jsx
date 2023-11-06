@@ -15,12 +15,6 @@ import Portfolio10 from "@public/portfolio10.jpg";
 import Portfolio11 from "@public/portfolio11.jpg";
 import Portfolio12 from "@public/portfolio12.jpg";
 
-export const metadata = {
-  title: "Construction and Property Services in Uganda | Portfolio",
-  description:
-    "Hakw Properties And Construction Uganda Ltd's portfolio showcases our best work in construction and property services in Uganda and Kampala. We specialize in construction services, electrical services, plumbing services, interior design services, ac installation and other services related to construction and properties.",
-};
-
 const page = () => {
   const [fullscreenImage, setFullscreenImage] = useState(null);
 
