@@ -6,6 +6,7 @@ import About2 from "@public/about2.png";
 import About3 from "@public/about3.png";
 import About4 from "@public/about4.png";
 import About5 from "@public/about5.png";
+import About6 from "@public/new-about.jpg";
 import Link from "next/link";
 
 export const metadata = {
@@ -55,6 +56,27 @@ const page = () => {
       </section>
       <section className="text-gray-600 body-font">
         <div className="container px-5 py-16 mx-auto">
+          <div className="flex max-md:flex-col gap-16 justify-center items-center mb-16">
+            <Image
+              alt="content"
+              class="object-cover object-center h-full rounded md:w-1/2 w-full max-md:order-2"
+              src={About6}
+            />
+            <div className="md:w-1/2 w-full">
+              <p className="leading-relaxed text-base">
+                At Hakw Properties and Construction UG Limited, we are more than
+                just a construction and property management company; we are a
+                team dedicated to a vision and mission that drives our
+                commitment to excellence. Our company is located in Bugolobi
+                Industrial Area, 5th Street, and we offer a wide range of
+                services in the construction and property management industry.
+                Our team of skilled professionals takes pride in managing and
+                executing projects from inception to completion while adhering
+                to our core values
+              </p>
+            </div>
+          </div>
+
           <div className="flex flex-col text-center w-full mb-16">
             <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900">
               Our Mission
@@ -63,15 +85,27 @@ const page = () => {
               <div className="w-16 h-1 rounded-full bg-primary inline-flex"></div>
             </div>
             <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-              Our mission is simple but profound: to shape the future by
-              building exceptional spaces. We are more than constructors; we are
-              creators, driven by a deep commitment to quality, innovation, and
-              complete client satisfaction. With Hawks, you're not just a
+              Our mission is simple but profound: to deliver high-quality
+              services in construction and property management, transforming our
+              clients' visions into reality. With Hawk, you're not just a
               client; you're a partner in our journey to excellence.
             </p>
           </div>
 
           <div className="flex flex-wrap">
+            <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+              <h2 className="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">
+                Our Vision
+              </h2>
+              <div className="flex my-3 justify-start">
+                <div className="w-10 h-[2px] rounded-full bg-primary inline-flex"></div>
+              </div>
+              <p className="leading-relaxed text-base mb-4">
+                To lead in construction and property management, and set
+                industry standards for quality, innovation, and customer
+                satisfaction.
+              </p>
+            </div>
             <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
               <h2 className="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">
                 Our Story
@@ -107,19 +141,6 @@ const page = () => {
               <p className="leading-relaxed text-base mb-4">
                 Excellence, innovation, and quality are the cornerstones of our
                 approach, guiding each endeavor to deliver outstanding results.
-              </p>
-            </div>
-            <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
-              <h2 className="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">
-                Sustainability
-              </h2>
-              <div className="flex my-3 justify-start">
-                <div className="w-10 h-[2px] rounded-full bg-primary inline-flex"></div>
-              </div>
-              <p className="leading-relaxed text-base mb-4">
-                Committed to eco-friendly practices and sustainable
-                construction, we pave the way for a greener, more sustainable
-                future.
               </p>
             </div>
           </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const Section2 = () => {
   return (
@@ -41,7 +42,10 @@ const Section2 = () => {
                 Our seasoned team of architects, engineers, and builders is at
                 the forefront of industry trends and cutting-edge technology.
               </p>
-              <a class="mt-3 text-primary inline-flex items-center">
+              <Link
+                href={"/about"}
+                class="mt-3 text-primary inline-flex items-center cursor-pointer"
+              >
                 Learn More
                 <svg
                   fill="none"
@@ -54,7 +58,7 @@ const Section2 = () => {
                 >
                   <path d="M5 12h14M12 5l7 7-7 7"></path>
                 </svg>
-              </a>
+              </Link>
             </div>
           </div>
           <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
@@ -82,7 +86,10 @@ const Section2 = () => {
                 using only the finest materials to create properties that stand
                 the test of time.
               </p>
-              <a class="mt-3 text-primary inline-flex items-center">
+              <Link
+                href={"/about"}
+                class="mt-3 text-primary inline-flex items-center cursor-pointer"
+              >
                 Learn More
                 <svg
                   fill="none"
@@ -95,7 +102,7 @@ const Section2 = () => {
                 >
                   <path d="M5 12h14M12 5l7 7-7 7"></path>
                 </svg>
-              </a>
+              </Link>
             </div>
           </div>
           <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
@@ -122,7 +129,10 @@ const Section2 = () => {
                 desires, ensuring that your dreams are brought to life in every
                 project we undertake.
               </p>
-              <a class="mt-3 text-primary inline-flex items-center">
+              <Link
+                href={"/about"}
+                class="mt-3 text-primary inline-flex items-center cursor-pointer"
+              >
                 Learn More
                 <svg
                   fill="none"
@@ -135,15 +145,15 @@ const Section2 = () => {
                 >
                   <path d="M5 12h14M12 5l7 7-7 7"></path>
                 </svg>
-              </a>
+              </Link>
             </div>
           </div>
         </div>
-        <a href="#section3">
+        <Link href={"/portfolio"}>
           <button class="flex mx-auto mt-16 text-white bg-primary transition hover:bg-primary2 border-0 py-2 px-8 focus:outline-none rounded text-lg">
             Our Work
           </button>
-        </a>
+        </Link>
       </div>
     </section>
   );

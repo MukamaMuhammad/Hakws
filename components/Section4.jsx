@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import stat from "@public/contact-min.jpg";
-import stats from "@public/stats.png";
+import stats from "@public/stats2.jpg";
 import Link from "next/link";
 
 const Section4 = () => {
@@ -44,7 +44,7 @@ const Section4 = () => {
             <p class="leading-relaxed">Customer Support</p>
           </div>
         </div>
-        <div class="lg:w-1/2 sm:w-1/3 w-full rounded-lg overflow-hidden mt-6 sm:mt-0">
+        <div class="lg:w-1/2 sm:w-1/3 w-full rounded-lg overflow-hidden mt-6 sm:mt-0 ">
           <Image
             class="object-cover object-center w-full h-full"
             src={stats}
@@ -52,17 +52,6 @@ const Section4 = () => {
           />
         </div>
       </div>
-
-      <section className="container px-1 mx-auto bg-primary h-[32vh]  md:h-[40vh] lg:h-auto md:pb-12 text-center">
-        <h3 className="mt-0 pt-14 font-medium text-xl md:text-3xl text-white">
-          An innovative Company working with the latest technologies
-        </h3>
-        <Link href={"/contact"}>
-          <button className="bg-transparent p-2 md:py-4 md:px-7 px-5 border-2 border-white text-white text-lg md:text-base mt-5 hover:bg-white hover:text-primary transition duration-500">
-            Contact Us
-          </button>
-        </Link>
-      </section>
     </section>
   );
 };

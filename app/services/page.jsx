@@ -6,6 +6,9 @@ import service3 from "@public/service3.jpg";
 import service4 from "@public/portfolio3.png";
 import service5 from "@public/service5.jpg";
 import service6 from "@public/service6.png";
+import welding from "@public/welding.jpg";
+import cctv from "@public/cctv.jpg";
+import service7 from "@public/new-services.jpg";
 
 export const metadata = {
   title:
@@ -33,7 +36,8 @@ const page = () => {
             the scale or complexity of the project. Our services include:
           </p>
         </div>
-        <div className="flex flex-wrap -m-4">
+
+        <div className="flex flex-wrap -m-4 mb-16">
           <div className="xl:w-1/3 md:w-1/2 p-4">
             <div className="bg-gray-100 p-6 rounded-lg">
               <Image
@@ -58,11 +62,11 @@ const page = () => {
                 alt="content"
               />
               <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
-                ELECTRICAL SERVICES
+                ELECTRICAL INSTALLATION
               </h2>
               <p className="leading-relaxed text-base">
-                Safeguarding your home and businesses with skilled electrical
-                solutions, ensuring safety and efficiency.
+                We provide expert electrical installation services to ensure
+                safety and efficiency in residential and commercial properties.
               </p>
             </div>
           </div>
@@ -77,8 +81,25 @@ const page = () => {
                 PLUMBING
               </h2>
               <p className="leading-relaxed text-base">
-                Keeping water flowing seamlessly, with reliable plumbing
-                solutions for homes and businesses.
+                Our plumbing services cover everything from installations to
+                repairs, ensuring that your plumbing systems function smoothly.
+              </p>
+            </div>
+          </div>
+          <div className="xl:w-1/3 md:w-1/2 p-4">
+            <div className="bg-gray-100 p-6 rounded-lg">
+              <Image
+                className="h-40 rounded w-full object-cover object-center mb-6"
+                src={cctv}
+                alt="content"
+              />
+              <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
+                CCTV INSTALLATION
+              </h2>
+              <p className="leading-relaxed text-base">
+                Enhance the security of your property with our state-of-the-art
+                CCTV installation services, providing peace of mind to property
+                owners.
               </p>
             </div>
           </div>
@@ -90,11 +111,11 @@ const page = () => {
                 alt="content"
               />
               <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
-                INTERIOR DESIGN
+                RENOVATIONS & MAINTENANCE
               </h2>
               <p className="leading-relaxed text-base">
-                Elevating spaces with creative design, turning your vision into
-                captivating, functional environments.
+                We offer comprehensive renovation & maintenance to revitalize
+                your properties, ensuring they remain in top condition.
               </p>
             </div>
           </div>
@@ -102,33 +123,111 @@ const page = () => {
             <div className="bg-gray-100 p-6 rounded-lg">
               <Image
                 className="h-40 rounded w-full object-cover object-center mb-6"
-                src={service5}
+                src={welding}
                 alt="content"
               />
               <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
-                PROJECT MANAGEMENT
+                WELDING AND FABRICATION
               </h2>
               <p className="leading-relaxed text-base">
-                Your project's success is our mission—comprehensive planning,
-                oversight, and quality control.
+                We specialize in welding and fabrication, offering innovative
+                solutions for various construction needs.
               </p>
             </div>
           </div>
-          <div className="xl:w-1/3 md:w-1/2 p-4">
-            <div className="bg-gray-100 p-6 rounded-lg">
-              <Image
-                className="h-40 rounded w-full object-cover object-center mb-6"
-                src={service6}
-                alt="content"
-              />
-              <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
-                AC INSTALLATION
-              </h2>
-              <p className="leading-relaxed text-base">
-                Ensuring year-round comfort with expert, efficient AC
-                installations for homes and offices.
-              </p>
-            </div>
+        </div>
+
+        <div className="flex flex-wrap w-full mb-10">
+          <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
+            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">
+              Project Management
+            </h1>
+            <div className="h-1 w-20 bg-primary rounded"></div>
+          </div>
+          <p className="lg:w-1/2 w-full leading-relaxed text-gray-500">
+            Hakw Properties and Construction UG Limited is your trusted partner
+            for project management. We handle the overall planning,
+            coordination, and control of projects from start to finish. Our
+            project management services include:
+          </p>
+        </div>
+
+        <div className="flex flex-col md:flex-row w-full md:gap-16">
+          <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
+            <Image
+              className="h-auto rounded w-full object-cover object-center "
+              src={service7}
+              alt="content"
+            />
+          </div>
+          <div className="lg:w-1/2 w-full mb-6 lg:mb-0 leading-relaxed text-gray-500">
+            <ul className="list-disc flex flex-col gap-3 max-md:mx-2">
+              <li>
+                <p>
+                  <span className="text-primary font-medium block">
+                    Contract Administration:
+                  </span>
+                  We expertly manage all aspects of project contracts to ensure
+                  smooth execution.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <span className="text-primary font-medium block">
+                    Quality Assurance Enforcement:
+                  </span>
+                  We uphold the highest standards of quality in every project we
+                  undertake.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <span className="text-primary font-medium block">
+                    Issue Avoidance and Dispute Resolution:
+                  </span>
+                  Our experienced team can handle any issues that may arise,
+                  resolving disputes effectively.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <span className="text-primary font-medium block">
+                    Progress and Financial Reporting:
+                  </span>
+                  We keep you informed with regular updates on project progress
+                  and financial status.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <span className="text-primary font-medium block">
+                    Project Documentation and Digital File Maintenance:
+                  </span>
+                  We maintain accurate records and digital files for each
+                  project, ensuring transparency and easy access to project
+                  information.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <span className="text-primary font-medium block">
+                    Change Order Management:
+                  </span>
+                  We efficiently manage changes to project scope, ensuring
+                  minimal disruptions and cost control.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <span className="text-primary font-medium block">
+                    Contract Closeout:
+                  </span>
+                  We ensure that all project contracts are successfully closed,
+                  leaving you with a completed project that meets your
+                  expectations.
+                </p>
+              </li>
+            </ul>
           </div>
         </div>
       </div>

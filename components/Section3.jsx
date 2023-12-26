@@ -1,11 +1,12 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import service1 from "@public/service1.jpg";
 import service2 from "@public/service2.jpg";
 import service3 from "@public/service3.jpg";
 import service4 from "@public/portfolio3.png";
-import service5 from "@public/service5.jpg";
-import service6 from "@public/service6.png";
+import welding from "@public/welding.jpg";
+import cctv from "@public/cctv.jpg";
 
 const Section3 = () => {
   return (
@@ -26,9 +27,9 @@ const Section3 = () => {
             the scale or complexity of the project. Our services include:
           </p>
         </div>
-        <div className="flex flex-wrap -m-4">
+        <div className="flex flex-wrap -m-4 ">
           <div className="xl:w-1/3 md:w-1/2 p-4">
-            <div className=" border-[1px] shadow-lg border-primary p-6 rounded-lg">
+            <div className="bg-gray-100 p-6 rounded-lg">
               <Image
                 className="h-40 rounded w-full object-cover object-center mb-6"
                 src={service1}
@@ -44,23 +45,23 @@ const Section3 = () => {
             </div>
           </div>
           <div className="xl:w-1/3 md:w-1/2 p-4">
-            <div className=" border-[1px] shadow-lg border-primary p-6 rounded-lg">
+            <div className="bg-gray-100 p-6 rounded-lg">
               <Image
                 className="h-40 rounded w-full object-cover object-center mb-6"
                 src={service2}
                 alt="content"
               />
               <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
-                ELECTRICAL SERVICES
+                ELECTRICAL INSTALLATION
               </h2>
               <p className="leading-relaxed text-base">
-                Safeguarding your home and businesses with skilled electrical
-                solutions, ensuring safety and efficiency.
+                We provide expert electrical installation services to ensure
+                safety and efficiency in residential and commercial properties.
               </p>
             </div>
           </div>
           <div className="xl:w-1/3 md:w-1/2 p-4">
-            <div className=" border-[1px] shadow-lg border-primary p-6 rounded-lg">
+            <div className="bg-gray-100 p-6 rounded-lg">
               <Image
                 className="h-40 rounded w-full object-cover object-center mb-6"
                 src={service3}
@@ -70,61 +71,72 @@ const Section3 = () => {
                 PLUMBING
               </h2>
               <p className="leading-relaxed text-base">
-                Keeping water flowing seamlessly, with reliable plumbing
-                solutions for homes and businesses.
+                Our plumbing services cover everything from installations to
+                repairs, ensuring that your plumbing systems function smoothly.
               </p>
             </div>
           </div>
           <div className="xl:w-1/3 md:w-1/2 p-4">
-            <div className=" border-[1px] shadow-lg border-primary p-6 rounded-lg">
+            <div className="bg-gray-100 p-6 rounded-lg">
+              <Image
+                className="h-40 rounded w-full object-cover object-center mb-6"
+                src={cctv}
+                alt="content"
+              />
+              <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
+                CCTV INSTALLATION
+              </h2>
+              <p className="leading-relaxed text-base">
+                Enhance the security of your property with our state-of-the-art
+                CCTV installation services, providing peace of mind to property
+                owners.
+              </p>
+            </div>
+          </div>
+          <div className="xl:w-1/3 md:w-1/2 p-4">
+            <div className="bg-gray-100 p-6 rounded-lg">
               <Image
                 className="h-40 rounded w-full object-cover object-center mb-6"
                 src={service4}
                 alt="content"
               />
               <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
-                INTERIOR DESIGN
+                RENOVATIONS & MAINTENANCE
               </h2>
               <p className="leading-relaxed text-base">
-                Elevating spaces with creative design, turning your vision into
-                captivating, functional environments.
+                We offer comprehensive renovation & maintenance to revitalize
+                your properties, ensuring they remain in top condition.
               </p>
             </div>
           </div>
           <div className="xl:w-1/3 md:w-1/2 p-4">
-            <div className=" border-[1px] shadow-lg border-primary p-6 rounded-lg">
+            <div className="bg-gray-100 p-6 rounded-lg">
               <Image
                 className="h-40 rounded w-full object-cover object-center mb-6"
-                src={service5}
+                src={welding}
                 alt="content"
               />
               <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
-                PROJECT MANAGEMENT
+                WELDING AND FABRICATION
               </h2>
               <p className="leading-relaxed text-base">
-                Your project's success is our mission—comprehensive planning,
-                oversight, and quality control.
-              </p>
-            </div>
-          </div>
-          <div className="xl:w-1/3 md:w-1/2 p-4">
-            <div className=" border-[1px] shadow-lg border-primary p-6 rounded-lg">
-              <Image
-                className="h-40 rounded w-full object-cover object-center mb-6"
-                src={service6}
-                alt="content"
-              />
-              <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
-                AC INSTALLATION
-              </h2>
-              <p className="leading-relaxed text-base">
-                Ensuring year-round comfort with expert, efficient AC
-                installations for homes and offices.
+                We specialize in welding and fabrication, offering innovative
+                solutions for various construction needs.
               </p>
             </div>
           </div>
         </div>
       </div>
+      <section className=" px-1 bg-primary h-[32vh] w-[100vw]  md:h-[40vh] lg:h-auto md:pb-12 text-center rounded-lg">
+        <h3 className="mt-0 pt-14 font-medium text-xl md:text-3xl text-white">
+          An innovative Company working with the latest technologies
+        </h3>
+        <Link href={"/contact"}>
+          <button className="bg-transparent p-2 md:py-4 md:px-7 px-5 border-2 border-white text-white text-lg md:text-base mt-5 hover:bg-white hover:text-primary transition duration-500">
+            Contact Us
+          </button>
+        </Link>
+      </section>
     </section>
   );
 };

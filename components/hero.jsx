@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import bg1 from "../public/bg1.jpg";
+import bg1 from "@public/bg1.jpg";
 import banner from "@public/banner.jpg";
 import Link from "next/link";
 
@@ -15,11 +15,9 @@ const Hero = () => {
             Property and Construction
           </h1>
           <p className="mb-8 leading-relaxed">
-            At Hakw, we soar above the rest when it comes to turning your dreams
-            into reality. With a legacy of excellence spanning decades, we're
-            the name you can trust in the world of property and construction in
-            Uganda. Our wings have carried us to the pinnacle of innovation,
-            quality, and customer satisfaction.
+            At Hawk, we elevate dreams into reality. With decades of excellence,
+            we're your trusted name in Uganda's property and construction. Soar
+            with us for innovation, quality, and customer satisfaction.
           </p>
           <div className="flex justify-center">
             <a
@@ -35,7 +33,7 @@ const Hero = () => {
             </Link>
           </div>
         </div>
-        <div className="lg:max-w-lg lg:w-full md:w-1/2 w-[100%]">
+        <div className="lg:max-w-[40rem] lg:w-full md:w-1/2 w-[100%] ">
           <Image
             className="object-cover object-center rounded"
             alt="hero"

@@ -10,7 +10,7 @@ import { AiOutlineWhatsApp } from "react-icons/ai";
 const Footer = () => {
   return (
     <footer className="text-white">
-      <div className="bg-primary w-[100%]">
+      <div className="bg-primary w-[100%] rounded-lg">
         <div className="container mx-auto px-5 py-14 flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
           <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
             <a className="flex title-font font-medium items-center md:justify-start justify-center text-white">
@@ -23,7 +23,7 @@ const Footer = () => {
                 Hakw Properties & Construction Ltd
               </span>
             </a>
-            <p className="mt-2 text-sm text-slate-200">
+            <p className="mt-2 text-sm text-white">
               Your trusted partner for exceptional solutions in the real estate
               and construction industry
             </p>
@@ -36,25 +36,25 @@ const Footer = () => {
               <nav className="list-none mb-10">
                 <div className="flex items-center max-md:justify-center gap-2">
                   <GoLocation className="" />
-                  <a className="hover:text-gray-600 cursor-pointer text-slate-200">
+                  <a className="hover:text-gray-600 cursor-pointer text-white">
                     Bugolobi Industrial Area, 5th Street
                   </a>
                 </div>
                 <div className="flex items-center max-md:justify-center gap-2">
                   <BsTelephone />
-                  <a className="hover:text-gray-600 cursor-pointer text-slate-200">
+                  <a className="hover:text-gray-600 cursor-pointer text-white">
                     +256-706737090, +256-703741020
                   </a>
                 </div>
                 <div className="flex items-center max-md:justify-center gap-2 max-md:hidden">
                   <AiOutlineMail />
-                  <a className="hover:text-gray-600 cursor-pointer text-slate-200">
+                  <a className="hover:text-gray-600 cursor-pointer text-white">
                     hakwproperties.constructionugltd@gmail.com
                   </a>
                 </div>
                 <div className="flex items-center max-md:justify-center gap-2">
                   <AiOutlineWhatsApp />
-                  <a className="hover:text-gray-600 cursor-pointer text-slate-200">
+                  <a className="hover:text-gray-600 cursor-pointer text-white">
                     +256-706737090
                   </a>
                 </div>
@@ -66,22 +66,22 @@ const Footer = () => {
               </h2>
               <nav className="list-none mb-10">
                 <div>
-                  <a className="hover:text-gray-600 cursor-pointer text-slate-200">
+                  <a className="hover:text-gray-600 cursor-pointer text-white">
                     Facebook
                   </a>
                 </div>
                 <div>
-                  <a className="hover:text-gray-600 cursor-pointer text-slate-200">
+                  <a className="hover:text-gray-600 cursor-pointer text-white">
                     WhatsApp
                   </a>
                 </div>
                 <div>
-                  <a className="hover:text-gray-600 cursor-pointer text-slate-200">
+                  <a className="hover:text-gray-600 cursor-pointer text-white">
                     Instagram
                   </a>
                 </div>
                 <div>
-                  <a className="hover:text-gray-600 cursor-pointer text-slate-200">
+                  <a className="hover:text-gray-600 cursor-pointer text-white">
                     Twitter (X)
                   </a>
                 </div>
@@ -95,7 +95,7 @@ const Footer = () => {
                 <div>
                   <Link
                     href={"/"}
-                    className="hover:text-gray-600 cursor-pointer text-slate-200"
+                    className="hover:text-gray-600 cursor-pointer text-white"
                   >
                     Home
                   </Link>
@@ -103,7 +103,7 @@ const Footer = () => {
                 <div>
                   <Link
                     href={"/about"}
-                    className="hover:text-gray-600 cursor-pointer text-slate-200"
+                    className="hover:text-gray-600 cursor-pointer text-white"
                   >
                     About
                   </Link>
@@ -111,7 +111,7 @@ const Footer = () => {
                 <div>
                   <Link
                     href={"/services"}
-                    className="hover:text-gray-600 cursor-pointer text-slate-200"
+                    className="hover:text-gray-600 cursor-pointer text-white"
                   >
                     Services
                   </Link>
@@ -119,7 +119,7 @@ const Footer = () => {
                 <div>
                   <Link
                     href={"/contact"}
-                    className="hover:text-gray-600 cursor-pointer text-slate-200"
+                    className="hover:text-gray-600 cursor-pointer text-white"
                   >
                     Contact
                   </Link>
