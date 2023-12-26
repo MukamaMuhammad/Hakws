@@ -43,7 +43,7 @@ const Footer = () => {
                 <div className="flex items-center max-md:justify-center gap-2">
                   <BsTelephone />
                   <a className="hover:text-gray-600 cursor-pointer text-white">
-                    +256-706737090, +256-703741020
+                    +256-706737090, +256-780275559
                   </a>
                 </div>
                 <div className="flex items-center max-md:justify-center gap-2 max-md:hidden">
