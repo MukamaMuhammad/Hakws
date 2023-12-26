@@ -16,7 +16,7 @@ const Section6 = () => {
             <div className="h-1 w-20 bg-primary rounded"></div>
           </div>
           <p className="lg:w-1/2 w-full leading-relaxed text-gray-500">
-            At Hawk, our success thrives on the satisfaction of valued clients.
+            At Hakw, our success thrives on the satisfaction of valued clients.
             Proudly serving a diverse range of clients, we've built strong
             relationships with those who entrust us with their construction and
             property management needs. Some of our privileged partnerships

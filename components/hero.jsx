@@ -2,7 +2,6 @@
 import React from "react";
 import Image from "next/image";
 import bg1 from "@public/bg1.jpg";
-import banner from "@public/banner.jpg";
 import Link from "next/link";
 
 const Hero = () => {
@@ -15,7 +14,7 @@ const Hero = () => {
             Property and Construction
           </h1>
           <p className="mb-8 leading-relaxed">
-            At Hawk, we elevate dreams into reality. With decades of excellence,
+            At Hakw, we elevate dreams into reality. With decades of excellence,
             we're your trusted name in Uganda's property and construction. Soar
             with us for innovation, quality, and customer satisfaction.
           </p>
